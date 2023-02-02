@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./src/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+    <title>Demon Slayer</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    
+
+</head>
+<body> 
+    <div class="fundo-video">
+         <video class="video" autoplay loop muted>
+            <source src="./src/video/Demon-Slayer-Opening1.mp4" type="video/mp4" />
+        </video> 
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="./src/imagens/logo-demon-slayer-2.png" alt="logo Demon Slayer" />
+        </a>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="#"> Home </a> </li>
+                <li><a href="#">  Detalhes </a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./src/imagens/title-demon-slayer.png" alt="imagem do título do filme" />
+
+            <p class="descricao">Demon Slayer - Kimetsu no Yaiba é uma série japonesa de mangá shōnen escrita e ilustrada por 'Koyoharu Gotōge'. O mangá é serializado desde 15 de fevereiro de 2016 e foi encerrado em 18 de maio de 2020 na revista semanal 'Weekly Shōnen Jump', com seus capítulos sendo reunidos em 23 volumes tankōbon pela editora 'Shueisha'. Uma adaptação de um mangá para um anime de 26 episódios, produzida pelo estúdio 'ufotable', teve sua 1ª temporada exibida entre 6 de abril e 28 de setembro de 2019,e 2ª temporada, entre 10 de outubro de 2021 e 13 de fevereiro de 2022.</p>
+
+            <button class="botao-trailer">Veja o trailer</button>
+
+        </div>
+        <img class="demon-slayer" src="./src/imagens/demon-slayer-group.png" />
+        
+        <div class="modal ">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/SWAMTXfqer0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
